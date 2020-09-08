@@ -53,7 +53,7 @@
 					<artifacts>
 						<artifact>com.example:example-app:jar::${project.version}</artifact>
 					</artifacts>
-					<procfile>web: java -Xmx256m -jar ./example-app.jar \${PORT}</procfile>
+					<procfile>web: java -Xmx256m -jar ./example-app.jar \$8080</procfile>
 				</configuration>
 				<executions>
 					<execution>

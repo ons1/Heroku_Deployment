@@ -7,13 +7,15 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.4.BUILD-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
+
+		<!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>SpringBootHerokuDeployment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootHerokuDeployment</name>
 	<description>Demo project for Spring Boot</description>
-
+	<!-- add comment -->
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
